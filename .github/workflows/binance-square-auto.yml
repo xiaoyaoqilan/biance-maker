@@ -1,0 +1,39 @@
+name: Binance Square Auto
+
+on:
+  schedule:
+    - cron: "*/24 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: binance-square-auto
+  cancel-in-progress: false
+
+jobs:
+  post-once:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Publish one draft
+        shell: pwsh
+        env:
+          BINANCE_SQUARE_OPENAPI_KEY: ${{ secrets.BINANCE_SQUARE_OPENAPI_KEY }}
+        run: ./biance/scripts/github_square_once.ps1
+
+      - name: Commit state and logs
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add biance/square_drafts.jsonl biance/square_post_log.jsonl biance/square_github_state.json || true
+          if git diff --cached --quiet; then
+            echo "No state changes."
+          else
+            git commit -m "Update Binance Square auto state"
+            git push
+          fi
