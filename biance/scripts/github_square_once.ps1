@@ -77,7 +77,11 @@ function Read-Jsonl($Path) {
 
 function Get-UnpostedDraft {
   $drafts = @(Read-Jsonl $DraftsPath | Where-Object {
-    -not $_.posted -and -not [string]::IsNullOrWhiteSpace([string]$_.body)
+    $hasPosted = $_.PSObject.Properties.Name -contains "posted"
+    $isPosted = if ($hasPosted) { [bool]$_.posted } else { $false }
+    $hasBody = $_.PSObject.Properties.Name -contains "body"
+    $body = if ($hasBody) { [string]$_.body } else { "" }
+    -not $isPosted -and -not [string]::IsNullOrWhiteSpace($body)
   })
   if ($drafts.Count -gt 0) { return $drafts[0] }
   return $null
