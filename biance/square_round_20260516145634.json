@@ -1,0 +1,30 @@
+{
+  "at": "2026-05-16T14:56:34.528Z",
+  "snapshot": "E:\\Antigravity\\_binance24h_snapshot_2026-05-16T14-53-07-983Z.json",
+  "preview": "E:\\Antigravity\\square_posts_preview_2026-05-16T14-56-34-528Z.jsonl",
+  "target": 4,
+  "createdCount": 4,
+  "created": [
+    {
+      "id": "20260516145634_UTKUSDT",
+      "symbol": "UTKUSDT",
+      "fp": "49350dca7b4efeb0215bce7f4388e97ea2cab5def2c88d15eac171174f00331e"
+    },
+    {
+      "id": "20260516145634_CHZUSDT",
+      "symbol": "CHZUSDT",
+      "fp": "1362b109782a18c7200f3aba2c9fcd79d86a08832b6a316b71df9e50e37b484a"
+    },
+    {
+      "id": "20260516145634_CGPTUSDT",
+      "symbol": "CGPTUSDT",
+      "fp": "8bb25cba7ad397d18628cea8288962fad3b7fe464d88ea12a75e31aa5390e68a"
+    },
+    {
+      "id": "20260516145634_AIGENSYNUSDT",
+      "symbol": "AIGENSYNUSDT",
+      "fp": "e6a0730029b56e2f8b2cc04d63f50f47d9c0e269dad0310c0411a3a07632ef63"
+    }
+  ],
+  "avoidCount": 20
+}

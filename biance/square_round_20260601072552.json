@@ -1,0 +1,50 @@
+{
+  "at": "2026-06-01T07:25:52.393Z",
+  "snapshot": "_binance24h_snapshot_2026-06-01T07-25-40-814Z.json",
+  "preview": "E:\\Antigravity\\biance\\square_posts_preview_2026-06-01T07-25-52-393Z.jsonl",
+  "target": 8,
+  "createdCount": 8,
+  "created": [
+    {
+      "id": "20260601072552_PORTALUSDT",
+      "symbol": "PORTALUSDT",
+      "fp": "6e13cc488579553ceb2514308fd6ae6203bcb8ffa9b7b387e51ce8b54fe165c7"
+    },
+    {
+      "id": "20260601072552_STGUSDT",
+      "symbol": "STGUSDT",
+      "fp": "2838bfda2d4a97c3ce93f259328a0bcf1ba5231d54a23e80ae9fb049e20fe410"
+    },
+    {
+      "id": "20260601072552_币安人生USDT",
+      "symbol": "币安人生USDT",
+      "fp": "5b1e8639c71f372e25fe963313869aa183145901113ab1ac7b73ef1755591df8"
+    },
+    {
+      "id": "20260601072552_WLDUSDT",
+      "symbol": "WLDUSDT",
+      "fp": "b90fe54841ef0f48e1c8cfcc5d8d2621ac668a3572cc2eb6f0cc020602762e15"
+    },
+    {
+      "id": "20260601072552_XLMUSDT",
+      "symbol": "XLMUSDT",
+      "fp": "8f157a8fdae1c531ebb966df54e596561a893503a0772e38c0f2c8dd35f36c34"
+    },
+    {
+      "id": "20260601072552_STRAXUSDT",
+      "symbol": "STRAXUSDT",
+      "fp": "008d8ee8b3cea7e971f56139e73de1075188cbc280699279b43e221f41af1e3c"
+    },
+    {
+      "id": "20260601072552_ALLOUSDT",
+      "symbol": "ALLOUSDT",
+      "fp": "217feaf36befd8a747c7f227822a159b02160d0d60b2d3b0e844638265b554ae"
+    },
+    {
+      "id": "20260601072552_HIVEUSDT",
+      "symbol": "HIVEUSDT",
+      "fp": "820c3de8a4c0d17df5e909e9a8ad2c6c13340f50007f79ddcc46376d76e2b5c9"
+    }
+  ],
+  "avoidCount": 0
+}

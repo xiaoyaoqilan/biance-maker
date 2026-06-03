@@ -1,0 +1,13 @@
+﻿{
+    "snapshot":  "E:\\\\Antigravity\\\\_binance24h_snapshot_2026-05-11T18-31-18-120Z.json",
+    "preview":  "E:\\Antigravity\\square_posts_preview_.jsonl",
+    "posted":  0,
+    "at_utc":  "2026-05-11T18:40:21.5616423Z",
+    "random_target_posts":  3,
+    "tickers_file":  "E:\\Antigravity\\_tmp_tickers_20260511_184021.json",
+    "key_present":  false,
+    "drafted":  3,
+    "blockers":  [
+                     "BINANCE_SQUARE_OPENAPI_KEY missing"
+                 ]
+}

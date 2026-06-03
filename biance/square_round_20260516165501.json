@@ -1,0 +1,45 @@
+{
+  "at": "2026-05-16T16:55:01.721Z",
+  "snapshot": "E:\\Antigravity\\_binance24h_snapshot_2026-05-16T16-53-11-685Z.json",
+  "preview": "E:\\Antigravity\\square_posts_preview_2026-05-16T16-55-01-721Z.jsonl",
+  "target": 10,
+  "createdCount": 7,
+  "created": [
+    {
+      "id": "20260516165501_NEARUSDT",
+      "symbol": "NEARUSDT",
+      "fp": "3baf18dba3b33bd6056ecc9795dcd48261b886a8904dc558d4960ea04de940a3"
+    },
+    {
+      "id": "20260516165501_SHIBUSDT",
+      "symbol": "SHIBUSDT",
+      "fp": "94a9af13fe34e58383759e29ca28ac79ee9b1c0199489d892faa27180f4f67b4"
+    },
+    {
+      "id": "20260516165501_LINKUSDT",
+      "symbol": "LINKUSDT",
+      "fp": "7e4c931f91041dd5951cbfd8ea056c2490bd69d4950ac0ecbca9af82e67e5cab"
+    },
+    {
+      "id": "20260516165501_AAVEUSDT",
+      "symbol": "AAVEUSDT",
+      "fp": "6c16ee449a12be2ed1da604a81c321771bdf9d55b9e924db2a0813da5d4cf767"
+    },
+    {
+      "id": "20260516165501_PENGUUSDT",
+      "symbol": "PENGUUSDT",
+      "fp": "275846aa785c5b250d150e2ad9b2ed2458df068493ea3cd5eff9934c610088b0"
+    },
+    {
+      "id": "20260516165501_UNIUSDT",
+      "symbol": "UNIUSDT",
+      "fp": "692247a5a024b7445673d839c6ef3e46fa2410f3faf23c6428607220b3a6f16c"
+    },
+    {
+      "id": "20260516165501_FETUSDT",
+      "symbol": "FETUSDT",
+      "fp": "1f0c5b57fb0bb7f66c34b7a366d04c0e8df26d47836f1159ac05d0bbd833304c"
+    }
+  ],
+  "avoidCount": 37
+}

@@ -1,0 +1,45 @@
+{
+  "at": "2026-05-16T16:53:26.256Z",
+  "snapshot": "E:\\Antigravity\\_binance24h_snapshot_2026-05-16T16-53-11-685Z.json",
+  "preview": "E:\\Antigravity\\square_posts_preview_2026-05-16T16-53-26-256Z.jsonl",
+  "target": 7,
+  "createdCount": 7,
+  "created": [
+    {
+      "id": "20260516165326_ORCAUSDT",
+      "symbol": "ORCAUSDT",
+      "fp": "bc78ece57537dde1cb741d1f6a39bbb25e05542c164e7dac681cc5b2e49b9926"
+    },
+    {
+      "id": "20260516165326_RUNEUSDT",
+      "symbol": "RUNEUSDT",
+      "fp": "770e267fe871ba1b5afd3aa9de58d45c49d0c9048ea8f012abcddebbed3bfb87"
+    },
+    {
+      "id": "20260516165326_PENDLEUSDT",
+      "symbol": "PENDLEUSDT",
+      "fp": "a150d6654627b76220e14736e200ba527374fea500eb092529552f44591d783b"
+    },
+    {
+      "id": "20260516165326_SAGAUSDT",
+      "symbol": "SAGAUSDT",
+      "fp": "64d8cef40672d08ad8c291c899f1afc35c9fdf2d2aa53ddd0c27579353a87d7e"
+    },
+    {
+      "id": "20260516165326_WLFIUSDT",
+      "symbol": "WLFIUSDT",
+      "fp": "037c85c0ab1a15d171f2d0478aab0ff8da30eebe67fe4a76d0410d8e9770c007"
+    },
+    {
+      "id": "20260516165326_DASHUSDT",
+      "symbol": "DASHUSDT",
+      "fp": "daa2af28e6580bff0e5624e5a81b43c7495a64af13d4778eea9b1edc06581e3d"
+    },
+    {
+      "id": "20260516165326_ONDOUSDT",
+      "symbol": "ONDOUSDT",
+      "fp": "f585e8e75d64bcf311d0af547938061325ba03697afa24f10a6fce081d991386"
+    }
+  ],
+  "avoidCount": 24
+}

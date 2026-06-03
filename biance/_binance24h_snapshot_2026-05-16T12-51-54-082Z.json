@@ -1,0 +1,1095 @@
+{
+  "at": "2026-05-16T12:51:54.082Z",
+  "base": "https://api.binance.com",
+  "url": "https://api.binance.com/api/v3/ticker/24hr",
+  "universe": {
+    "total": 3587,
+    "usdtSpot": 661
+  },
+  "topVol": [
+    {
+      "symbol": "BTCUSDT",
+      "last": 78083.72,
+      "changePct": -2.847,
+      "high": 80444.13,
+      "low": 77640,
+      "quoteVol": 1406976575.8835607,
+      "closeTime": 1778935909001
+    },
+    {
+      "symbol": "ETHUSDT",
+      "last": 2179.09,
+      "changePct": -3.343,
+      "high": 2255.26,
+      "low": 2162.55,
+      "quoteVol": 621522812.095575,
+      "closeTime": 1778935909014
+    },
+    {
+      "symbol": "SOLUSDT",
+      "last": 86.37,
+      "changePct": -4.7,
+      "high": 90.76,
+      "low": 85.52,
+      "quoteVol": 243315384.06234,
+      "closeTime": 1778935908645
+    },
+    {
+      "symbol": "XRPUSDT",
+      "last": 1.4124,
+      "changePct": -3.307,
+      "high": 1.4616,
+      "low": 1.394,
+      "quoteVol": 151122352.03422,
+      "closeTime": 1778935906274
+    },
+    {
+      "symbol": "USD1USDT",
+      "last": 1.0005,
+      "changePct": 0.06,
+      "high": 1.0006,
+      "low": 0.9999,
+      "quoteVol": 117264258.0144,
+      "closeTime": 1778935906478
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "last": 0.10884,
+      "changePct": -4.493,
+      "high": 0.11421,
+      "low": 0.10818,
+      "quoteVol": 115230262.2682,
+      "closeTime": 1778935907542
+    },
+    {
+      "symbol": "BNBUSDT",
+      "last": 653.74,
+      "changePct": -4.225,
+      "high": 683.04,
+      "low": 650.7,
+      "quoteVol": 106785134.19349,
+      "closeTime": 1778935909091
+    },
+    {
+      "symbol": "SPKUSDT",
+      "last": 0.031479,
+      "changePct": -6.095,
+      "high": 0.034858,
+      "low": 0.031011,
+      "quoteVol": 90278017.278781,
+      "closeTime": 1778935908043
+    },
+    {
+      "symbol": "SUIUSDT",
+      "last": 1.0503,
+      "changePct": -6.789,
+      "high": 1.1286,
+      "low": 1.0364,
+      "quoteVol": 77222959.75104,
+      "closeTime": 1778935908151
+    },
+    {
+      "symbol": "ZECUSDT",
+      "last": 500.93,
+      "changePct": -5.661,
+      "high": 532.73,
+      "low": 486.61,
+      "quoteVol": 74648986.73151,
+      "closeTime": 1778935908185
+    },
+    {
+      "symbol": "RLUSDUSDT",
+      "last": 1.0005,
+      "changePct": 0.03,
+      "high": 1.0007,
+      "low": 1.0002,
+      "quoteVol": 52551596.8717,
+      "closeTime": 1778935907555
+    },
+    {
+      "symbol": "TRXUSDT",
+      "last": 0.3517,
+      "changePct": -0.085,
+      "high": 0.3532,
+      "low": 0.3489,
+      "quoteVol": 39491713.34788,
+      "closeTime": 1778935907926
+    },
+    {
+      "symbol": "TONUSDT",
+      "last": 1.922,
+      "changePct": -7.284,
+      "high": 2.077,
+      "low": 1.862,
+      "quoteVol": 34840341.53673,
+      "closeTime": 1778935908546
+    },
+    {
+      "symbol": "UUSDT",
+      "last": 1.0001,
+      "changePct": 0.02,
+      "high": 1.0004,
+      "low": 0.9999,
+      "quoteVol": 33663408.0327,
+      "closeTime": 1778935907781
+    },
+    {
+      "symbol": "TAOUSDT",
+      "last": 273.8,
+      "changePct": -8.397,
+      "high": 299.3,
+      "low": 267.9,
+      "quoteVol": 31993085.95324,
+      "closeTime": 1778935905473
+    },
+    {
+      "symbol": "PEPEUSDT",
+      "last": 0.00000374,
+      "changePct": -6.5,
+      "high": 0.00000401,
+      "low": 0.00000369,
+      "quoteVol": 30538365.59878319,
+      "closeTime": 1778935904662
+    },
+    {
+      "symbol": "ADAUSDT",
+      "last": 0.255,
+      "changePct": -3.955,
+      "high": 0.2656,
+      "low": 0.2521,
+      "quoteVol": 30495542.63646,
+      "closeTime": 1778935908294
+    },
+    {
+      "symbol": "LINKUSDT",
+      "last": 9.66,
+      "changePct": -5.848,
+      "high": 10.28,
+      "low": 9.61,
+      "quoteVol": 29890321.0051,
+      "closeTime": 1778935904182
+    },
+    {
+      "symbol": "LAYERUSDT",
+      "last": 0.0933,
+      "changePct": -3.115,
+      "high": 0.0978,
+      "low": 0.0904,
+      "quoteVol": 28048343.975158,
+      "closeTime": 1778935908489
+    },
+    {
+      "symbol": "STORJUSDT",
+      "last": 0.1198,
+      "changePct": 13.019,
+      "high": 0.1597,
+      "low": 0.1003,
+      "quoteVol": 25080993.1688,
+      "closeTime": 1778935907873
+    },
+    {
+      "symbol": "PAXGUSDT",
+      "last": 4530.11,
+      "changePct": -0.534,
+      "high": 4568.42,
+      "low": 4514.99,
+      "quoteVol": 22227030.823578,
+      "closeTime": 1778935887480
+    },
+    {
+      "symbol": "FDUSDUSDT",
+      "last": 0.998,
+      "changePct": -0.03,
+      "high": 0.9985,
+      "low": 0.9979,
+      "quoteVol": 21700679.414,
+      "closeTime": 1778935893555
+    },
+    {
+      "symbol": "NEARUSDT",
+      "last": 1.498,
+      "changePct": -2.916,
+      "high": 1.577,
+      "low": 1.48,
+      "quoteVol": 21317479.4713,
+      "closeTime": 1778935905821
+    },
+    {
+      "symbol": "AAVEUSDT",
+      "last": 89.45,
+      "changePct": -6.511,
+      "high": 95.72,
+      "low": 87.89,
+      "quoteVol": 18870174.22651,
+      "closeTime": 1778935908937
+    },
+    {
+      "symbol": "LTCUSDT",
+      "last": 56.06,
+      "changePct": -2.977,
+      "high": 57.92,
+      "low": 55.57,
+      "quoteVol": 18733588.36923,
+      "closeTime": 1778935907087
+    },
+    {
+      "symbol": "EURUSDT",
+      "last": 1.1618,
+      "changePct": -0.077,
+      "high": 1.164,
+      "low": 1.1614,
+      "quoteVol": 18506938.2117,
+      "closeTime": 1778935905599
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "last": 9.29,
+      "changePct": -4.424,
+      "high": 9.74,
+      "low": 9.19,
+      "quoteVol": 17738944.1,
+      "closeTime": 1778935905137
+    },
+    {
+      "symbol": "ENAUSDT",
+      "last": 0.1065,
+      "changePct": -8.896,
+      "high": 0.1172,
+      "low": 0.1052,
+      "quoteVol": 16830433.07515,
+      "closeTime": 1778935908520
+    },
+    {
+      "symbol": "BCHUSDT",
+      "last": 414.5,
+      "changePct": -3.672,
+      "high": 430.9,
+      "low": 410.6,
+      "quoteVol": 16792295.8721,
+      "closeTime": 1778935908581
+    },
+    {
+      "symbol": "XAUTUSDT",
+      "last": 4531.99,
+      "changePct": -0.542,
+      "high": 4569.34,
+      "low": 4520,
+      "quoteVol": 16734223.130095,
+      "closeTime": 1778935903516
+    },
+    {
+      "symbol": "AIGENSYNUSDT",
+      "last": 0.03423,
+      "changePct": -16.634,
+      "high": 0.04363,
+      "low": 0.03246,
+      "quoteVol": 15362038.63804,
+      "closeTime": 1778935906031
+    },
+    {
+      "symbol": "TRUMPUSDT",
+      "last": 2.154,
+      "changePct": -7.275,
+      "high": 2.33,
+      "low": 2.117,
+      "quoteVol": 13946338.831195,
+      "closeTime": 1778935903066
+    },
+    {
+      "symbol": "ONDOUSDT",
+      "last": 0.344,
+      "changePct": -8.874,
+      "high": 0.3783,
+      "low": 0.3407,
+      "quoteVol": 12928132.16735,
+      "closeTime": 1778935905567
+    },
+    {
+      "symbol": "SAGAUSDT",
+      "last": 0.02271,
+      "changePct": -6.428,
+      "high": 0.02489,
+      "low": 0.02192,
+      "quoteVol": 12018509.800327,
+      "closeTime": 1778935906364
+    },
+    {
+      "symbol": "ASTERUSDT",
+      "last": 0.663,
+      "changePct": -0.6,
+      "high": 0.671,
+      "low": 0.653,
+      "quoteVol": 11743432.88985,
+      "closeTime": 1778935908224
+    },
+    {
+      "symbol": "ICPUSDT",
+      "last": 2.635,
+      "changePct": -1.862,
+      "high": 2.69,
+      "low": 2.519,
+      "quoteVol": 11597546.84593,
+      "closeTime": 1778935907357
+    },
+    {
+      "symbol": "CGPTUSDT",
+      "last": 0.03071,
+      "changePct": -23.416,
+      "high": 0.045,
+      "low": 0.03058,
+      "quoteVol": 11535397.846246,
+      "closeTime": 1778935908858
+    },
+    {
+      "symbol": "FFUSDT",
+      "last": 0.09087,
+      "changePct": 2.032,
+      "high": 0.09265,
+      "low": 0.08362,
+      "quoteVol": 11362116.89257,
+      "closeTime": 1778935906719
+    },
+    {
+      "symbol": "XLMUSDT",
+      "last": 0.1518,
+      "changePct": -4.288,
+      "high": 0.1589,
+      "low": 0.1502,
+      "quoteVol": 11308526.979,
+      "closeTime": 1778935908283
+    },
+    {
+      "symbol": "WLFIUSDT",
+      "last": 0.0607,
+      "changePct": -10.074,
+      "high": 0.0675,
+      "low": 0.0601,
+      "quoteVol": 11233543.17692,
+      "closeTime": 1778935905921
+    }
+  ],
+  "topGainers": [
+    {
+      "symbol": "CREAMUSDT",
+      "last": 2.1,
+      "changePct": 65.354,
+      "high": 2.25,
+      "low": 1.22,
+      "quoteVol": 276098.07379,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "PNTUSDT",
+      "last": 0.035,
+      "changePct": 45.228,
+      "high": 0.035,
+      "low": 0.0215,
+      "quoteVol": 261845.0621,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "KDAUSDT",
+      "last": 0.006,
+      "changePct": 17.647,
+      "high": 0.0072,
+      "low": 0.0048,
+      "quoteVol": 343775.052416,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "UTKUSDT",
+      "last": 0.00795,
+      "changePct": 16.228,
+      "high": 0.0244,
+      "low": 0.00677,
+      "quoteVol": 10207948.62723,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "AIUSDT",
+      "last": 0.0321,
+      "changePct": 15.468,
+      "high": 0.0334,
+      "low": 0.0269,
+      "quoteVol": 8304884.31816,
+      "closeTime": 1778935905149
+    },
+    {
+      "symbol": "CLVUSDT",
+      "last": 0.02937,
+      "changePct": 13.97,
+      "high": 0.03082,
+      "low": 0.02062,
+      "quoteVol": 349014.844454,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "MDXUSDT",
+      "last": 0.0345,
+      "changePct": 13.524,
+      "high": 0.0383,
+      "low": 0.02917,
+      "quoteVol": 314138.785907,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "STORJUSDT",
+      "last": 0.1198,
+      "changePct": 13.019,
+      "high": 0.1597,
+      "low": 0.1003,
+      "quoteVol": 25080993.1688,
+      "closeTime": 1778935907873
+    },
+    {
+      "symbol": "WAVESUSDT",
+      "last": 1.076,
+      "changePct": 11.967,
+      "high": 1.082,
+      "low": 0.951,
+      "quoteVol": 438682.24606,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "OSMOUSDT",
+      "last": 0.0772,
+      "changePct": 11.239,
+      "high": 0.0898,
+      "low": 0.0615,
+      "quoteVol": 9780911.48855,
+      "closeTime": 1778935908756
+    },
+    {
+      "symbol": "DODOUSDT",
+      "last": 0.02038,
+      "changePct": 10.103,
+      "high": 0.02147,
+      "low": 0.01759,
+      "quoteVol": 4073002.720669,
+      "closeTime": 1778935907239
+    },
+    {
+      "symbol": "ELFUSDT",
+      "last": 0.2272,
+      "changePct": 8.812,
+      "high": 0.2374,
+      "low": 0.203,
+      "quoteVol": 636799.68008,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "ZBTUSDT",
+      "last": 0.1601,
+      "changePct": 8.542,
+      "high": 0.168,
+      "low": 0.1454,
+      "quoteVol": 9121335.55111,
+      "closeTime": 1778935908134
+    },
+    {
+      "symbol": "RENUSDT",
+      "last": 0.04274,
+      "changePct": 8.477,
+      "high": 0.04346,
+      "low": 0.0391,
+      "quoteVol": 476205.42629,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "FLMUSDT",
+      "last": 0.0167,
+      "changePct": 8.442,
+      "high": 0.0168,
+      "low": 0.015,
+      "quoteVol": 258943.1333,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "ADADOWNUSDT",
+      "last": 0.001917,
+      "changePct": 8.428,
+      "high": 0.00215,
+      "low": 0.001756,
+      "quoteVol": 648364.02209361,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "PHBUSDT",
+      "last": 0.081,
+      "changePct": 6.579,
+      "high": 0.089,
+      "low": 0.071,
+      "quoteVol": 3590977.2882,
+      "closeTime": 1778935906357
+    },
+    {
+      "symbol": "HIFIUSDT",
+      "last": 0.127,
+      "changePct": 6.187,
+      "high": 0.1393,
+      "low": 0.1143,
+      "quoteVol": 879729.93804,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "ERNUSDT",
+      "last": 2.183,
+      "changePct": 5.663,
+      "high": 2.21,
+      "low": 2.049,
+      "quoteVol": 639411.6946,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "PLAUSDT",
+      "last": 0.2347,
+      "changePct": 5.531,
+      "high": 0.238,
+      "low": 0.222,
+      "quoteVol": 802650.287482,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "QNTUSDT",
+      "last": 82.76,
+      "changePct": 5.521,
+      "high": 85,
+      "low": 76.18,
+      "quoteVol": 4506230.54698,
+      "closeTime": 1778935908572
+    },
+    {
+      "symbol": "LITUSDT",
+      "last": 0.743,
+      "changePct": 5.241,
+      "high": 0.755,
+      "low": 0.656,
+      "quoteVol": 799655.0663,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "XMRUSDT",
+      "last": 118.7,
+      "changePct": 4.766,
+      "high": 119.6,
+      "low": 110.4,
+      "quoteVol": 574681.0774,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "PERPUSDT",
+      "last": 0.125,
+      "changePct": 4.69,
+      "high": 0.1273,
+      "low": 0.1188,
+      "quoteVol": 95210.092318,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "BONDUSDT",
+      "last": 2.152,
+      "changePct": 4.415,
+      "high": 2.17,
+      "low": 2.023,
+      "quoteVol": 704422.82223,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "LINAUSDT",
+      "last": 0.000337,
+      "changePct": 4.334,
+      "high": 0.000347,
+      "low": 0.000316,
+      "quoteVol": 176157.586951,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "LOKAUSDT",
+      "last": 0.1237,
+      "changePct": 3.862,
+      "high": 0.13,
+      "low": 0.1159,
+      "quoteVol": 898447.18098,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "LUNCUSDT",
+      "last": 0.00007942,
+      "changePct": 3.776,
+      "high": 0.00008013,
+      "low": 0.00007394,
+      "quoteVol": 9894406.70465137,
+      "closeTime": 1778935908942
+    },
+    {
+      "symbol": "ORCAUSDT",
+      "last": 1.496,
+      "changePct": 3.601,
+      "high": 1.694,
+      "low": 1.372,
+      "quoteVol": 10761360.14274,
+      "closeTime": 1778935905648
+    },
+    {
+      "symbol": "COCOSUSDT",
+      "last": 1.7546,
+      "changePct": 3.443,
+      "high": 1.7698,
+      "low": 1.6921,
+      "quoteVol": 1531715.9424,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "TOMOUSDT",
+      "last": 1.3819,
+      "changePct": 3.219,
+      "high": 1.39,
+      "low": 1.31,
+      "quoteVol": 1094187.90188,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "WNXMUSDT",
+      "last": 73.26,
+      "changePct": 3.198,
+      "high": 76.37,
+      "low": 69.38,
+      "quoteVol": 177656.5217,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "XEMUSDT",
+      "last": 0.01596,
+      "changePct": 3.167,
+      "high": 0.0163,
+      "low": 0.01484,
+      "quoteVol": 299857.23906,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "BEAMUSDT",
+      "last": 0.0652,
+      "changePct": 3.165,
+      "high": 0.068,
+      "low": 0.0631,
+      "quoteVol": 739250.4197,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "VICUSDT",
+      "last": 0.0608,
+      "changePct": 3.051,
+      "high": 0.0678,
+      "low": 0.0557,
+      "quoteVol": 5767025.638712,
+      "closeTime": 1778935908180
+    },
+    {
+      "symbol": "NKNUSDT",
+      "last": 0.0073,
+      "changePct": 2.817,
+      "high": 0.0076,
+      "low": 0.0066,
+      "quoteVol": 181523.2437,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "BNXUSDT",
+      "last": 1.7819,
+      "changePct": 2.81,
+      "high": 1.83,
+      "low": 1.7281,
+      "quoteVol": 768036.30934,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "TRXUPUSDT",
+      "last": 0.03854,
+      "changePct": 2.719,
+      "high": 0.03985,
+      "low": 0.03593,
+      "quoteVol": 140483.6042582,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "LTOUSDT",
+      "last": 0.0038,
+      "changePct": 2.703,
+      "high": 0.004,
+      "low": 0.0029,
+      "quoteVol": 410367.5303,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "REEFUSDT",
+      "last": 0.000688,
+      "changePct": 2.687,
+      "high": 0.000701,
+      "low": 0.000651,
+      "quoteVol": 389266.024341,
+      "closeTime": 1778254531175
+    }
+  ],
+  "topLosers": [
+    {
+      "symbol": "BETAUSDT",
+      "last": 0.00036,
+      "changePct": -64,
+      "high": 0.0011,
+      "low": 0.00031,
+      "quoteVol": 296136.47499,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "VIBUSDT",
+      "last": 0.00223,
+      "changePct": -63.262,
+      "high": 0.007,
+      "low": 0.0018,
+      "quoteVol": 380611.67365,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "WTCUSDT",
+      "last": 0.0103,
+      "changePct": -56.54,
+      "high": 0.024,
+      "low": 0.01,
+      "quoteVol": 485356.1247,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "A2ZUSDT",
+      "last": 0.000084,
+      "changePct": -53.846,
+      "high": 0.000209,
+      "low": 0.000072,
+      "quoteVol": 1142385.598803,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "ACAUSDT",
+      "last": 0.0018,
+      "changePct": -51.351,
+      "high": 0.0038,
+      "low": 0.0017,
+      "quoteVol": 371370.826615,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "DEGOUSDT",
+      "last": 0.028,
+      "changePct": -50.877,
+      "high": 0.058,
+      "low": 0.024,
+      "quoteVol": 678681.72452,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "SXPUSDT",
+      "last": 0.0022,
+      "changePct": -45,
+      "high": 0.0042,
+      "low": 0.0019,
+      "quoteVol": 829784.86163,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "HARDUSDT",
+      "last": 0.0095,
+      "changePct": -40.252,
+      "high": 0.0159,
+      "low": 0.0088,
+      "quoteVol": 138020.6777,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "DENTUSDT",
+      "last": 0.000038,
+      "changePct": -36.667,
+      "high": 0.00006,
+      "low": 0.000035,
+      "quoteVol": 1118715.167836,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "FIOUSDT",
+      "last": 0.00094,
+      "changePct": -34.266,
+      "high": 0.0015,
+      "low": 0.00081,
+      "quoteVol": 1008760.84197,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "FORTHUSDT",
+      "last": 0.237,
+      "changePct": -33.427,
+      "high": 0.377,
+      "low": 0.221,
+      "quoteVol": 435103.33544,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "NTRNUSDT",
+      "last": 0.0016,
+      "changePct": -33.333,
+      "high": 0.0026,
+      "low": 0.0013,
+      "quoteVol": 400972.76855,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "DATAUSDT",
+      "last": 0.00088,
+      "changePct": -31.25,
+      "high": 0.00129,
+      "low": 0.00081,
+      "quoteVol": 111558.29681,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "IDEXUSDT",
+      "last": 0.00199,
+      "changePct": -30.175,
+      "high": 0.00291,
+      "low": 0.00199,
+      "quoteVol": 401259.067317,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "BURGERUSDT",
+      "last": 0.0172,
+      "changePct": -28.631,
+      "high": 0.0255,
+      "low": 0.0166,
+      "quoteVol": 216978.21736,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "PROSUSDT",
+      "last": 0.0372,
+      "changePct": -25.896,
+      "high": 0.052,
+      "low": 0.035,
+      "quoteVol": 112537.9207,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "FIROUSDT",
+      "last": 0.3,
+      "changePct": -25,
+      "high": 0.56,
+      "low": 0.255,
+      "quoteVol": 415626.4836,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "OOKIUSDT",
+      "last": 0.000119,
+      "changePct": -24.684,
+      "high": 0.000163,
+      "low": 0.000116,
+      "quoteVol": 712370.498025,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "VITEUSDT",
+      "last": 0.00086,
+      "changePct": -24.561,
+      "high": 0.00116,
+      "low": 0.0008,
+      "quoteVol": 234222.031484,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "EPXUSDT",
+      "last": 0.0000194,
+      "changePct": -24.514,
+      "high": 0.0000286,
+      "low": 0.000017,
+      "quoteVol": 320257.9910375,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "FUNUSDT",
+      "last": 0.000342,
+      "changePct": -24.336,
+      "high": 0.000465,
+      "low": 0.0003,
+      "quoteVol": 607978.371012,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "CGPTUSDT",
+      "last": 0.03071,
+      "changePct": -23.416,
+      "high": 0.045,
+      "low": 0.03058,
+      "quoteVol": 11535397.846246,
+      "closeTime": 1778935908858
+    },
+    {
+      "symbol": "BIFIUSDT",
+      "last": 32.1,
+      "changePct": -23.389,
+      "high": 45,
+      "low": 32,
+      "quoteVol": 561400.1729,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "TROYUSDT",
+      "last": 0.000069,
+      "changePct": -23.333,
+      "high": 0.000105,
+      "low": 0.000061,
+      "quoteVol": 144294.082243,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "TRUUSDT",
+      "last": 0.0023,
+      "changePct": -23.333,
+      "high": 0.0031,
+      "low": 0.0022,
+      "quoteVol": 778601.5266,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "CVPUSDT",
+      "last": 0.0339,
+      "changePct": -23.303,
+      "high": 0.049,
+      "low": 0.0328,
+      "quoteVol": 428914.93213,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "WINGUSDT",
+      "last": 0.326,
+      "changePct": -23.294,
+      "high": 0.456,
+      "low": 0.291,
+      "quoteVol": 334298.94935,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "UFTUSDT",
+      "last": 0.0089,
+      "changePct": -23.276,
+      "high": 0.0121,
+      "low": 0.0086,
+      "quoteVol": 107823.8976,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "OAXUSDT",
+      "last": 0.0358,
+      "changePct": -21.491,
+      "high": 0.0489,
+      "low": 0.0356,
+      "quoteVol": 202253.7149,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "PERLUSDT",
+      "last": 0.0046,
+      "changePct": -20.553,
+      "high": 0.00585,
+      "low": 0.00453,
+      "quoteVol": 359284.384562,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "RDNTUSDT",
+      "last": 0.00328,
+      "changePct": -19.41,
+      "high": 0.0045,
+      "low": 0.00321,
+      "quoteVol": 1096493.50239,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "VIDTUSDT",
+      "last": 0.00115,
+      "changePct": -19.014,
+      "high": 0.00151,
+      "low": 0.00105,
+      "quoteVol": 183519.31426,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "MLNUSDT",
+      "last": 2.57,
+      "changePct": -18.671,
+      "high": 3.24,
+      "low": 2.42,
+      "quoteVol": 2452941.36109,
+      "closeTime": 1778935898357
+    },
+    {
+      "symbol": "DREPUSDT",
+      "last": 0.0256,
+      "changePct": -18.211,
+      "high": 0.0333,
+      "low": 0.025,
+      "quoteVol": 404593.4049,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "DFUSDT",
+      "last": 0.00164,
+      "changePct": -17.588,
+      "high": 0.00212,
+      "low": 0.00129,
+      "quoteVol": 107337.29702,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "LEVERUSDT",
+      "last": 0.000175,
+      "changePct": -17.062,
+      "high": 0.000217,
+      "low": 0.000162,
+      "quoteVol": 388103.817578,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "CHESSUSDT",
+      "last": 0.00281,
+      "changePct": -16.864,
+      "high": 0.00388,
+      "low": 0.00255,
+      "quoteVol": 167264.084137,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "FORUSDT",
+      "last": 0.00306,
+      "changePct": -16.848,
+      "high": 0.00372,
+      "low": 0.003,
+      "quoteVol": 369393.67526,
+      "closeTime": 1778254531175
+    },
+    {
+      "symbol": "AIGENSYNUSDT",
+      "last": 0.03423,
+      "changePct": -16.634,
+      "high": 0.04363,
+      "low": 0.03246,
+      "quoteVol": 15362038.63804,
+      "closeTime": 1778935906031
+    },
+    {
+      "symbol": "COMBOUSDT",
+      "last": 0.0276,
+      "changePct": -16.616,
+      "high": 0.039,
+      "low": 0.0275,
+      "quoteVol": 320262.66019,
+      "closeTime": 1778254531175
+    }
+  ]
+}

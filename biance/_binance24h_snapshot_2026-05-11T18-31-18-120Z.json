@@ -1,0 +1,490 @@
+{
+  "at": "2026-05-11T18:31:18.120Z",
+  "base": "https://api.binance.com",
+  "topVol": [
+    {
+      "symbol": "USDCUSDT",
+      "last": 1.00015,
+      "changePct": 0.015,
+      "high": 1.0003,
+      "low": 0.99994,
+      "quoteVol": 2124037586.55272
+    },
+    {
+      "symbol": "BTCUSDT",
+      "last": 82127.55,
+      "changePct": 0.929,
+      "high": 82479.32,
+      "low": 80279.77,
+      "quoteVol": 1335506066.9169884
+    },
+    {
+      "symbol": "ETHUSDT",
+      "last": 2342.25,
+      "changePct": -0.846,
+      "high": 2382.53,
+      "low": 2304,
+      "quoteVol": 748857323.715606
+    },
+    {
+      "symbol": "SOLUSDT",
+      "last": 97.54,
+      "changePct": 0.806,
+      "high": 98.1,
+      "low": 93.43,
+      "quoteVol": 326262395.88751
+    },
+    {
+      "symbol": "SUIUSDT",
+      "last": 1.3092,
+      "changePct": -2.604,
+      "high": 1.4223,
+      "low": 1.2461,
+      "quoteVol": 277698549.82508
+    },
+    {
+      "symbol": "XRPUSDT",
+      "last": 1.4776,
+      "changePct": -1.46,
+      "high": 1.5005,
+      "low": 1.4371,
+      "quoteVol": 230963272.14893
+    },
+    {
+      "symbol": "CHIPUSDT",
+      "last": 0.06184,
+      "changePct": -2.981,
+      "high": 0.06569,
+      "low": 0.05967,
+      "quoteVol": 211559126.64909
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "last": 0.11131,
+      "changePct": -0.027,
+      "high": 0.11286,
+      "low": 0.10643,
+      "quoteVol": 157980195.1657
+    },
+    {
+      "symbol": "USD1USDT",
+      "last": 0.9992,
+      "changePct": -0.01,
+      "high": 0.9996,
+      "low": 0.999,
+      "quoteVol": 129677285.1339
+    },
+    {
+      "symbol": "BNBUSDT",
+      "last": 663.17,
+      "changePct": 0.222,
+      "high": 666.66,
+      "low": 648.71,
+      "quoteVol": 116523821.58076
+    },
+    {
+      "symbol": "ZECUSDT",
+      "last": 565.94,
+      "changePct": -4.256,
+      "high": 599.22,
+      "low": 548.67,
+      "quoteVol": 115848609.4714
+    },
+    {
+      "symbol": "FDUSDUSDT",
+      "last": 0.9993,
+      "changePct": -0.05,
+      "high": 0.9998,
+      "low": 0.999,
+      "quoteVol": 78927830.8357
+    },
+    {
+      "symbol": "TONUSDT",
+      "last": 2.334,
+      "changePct": -3.673,
+      "high": 2.495,
+      "low": 2.264,
+      "quoteVol": 72330565.63982
+    },
+    {
+      "symbol": "RLUSDUSDT",
+      "last": 1.0005,
+      "changePct": 0.03,
+      "high": 1.0005,
+      "low": 1,
+      "quoteVol": 64004688.8728
+    },
+    {
+      "symbol": "PEPEUSDT",
+      "last": 0.00000437,
+      "changePct": -3.319,
+      "high": 0.00000455,
+      "low": 0.00000426,
+      "quoteVol": 60674213.56626829
+    },
+    {
+      "symbol": "TAOUSDT",
+      "last": 325.6,
+      "changePct": -1.154,
+      "high": 333.3,
+      "low": 313,
+      "quoteVol": 49297906.26661
+    },
+    {
+      "symbol": "ONDOUSDT",
+      "last": 0.4271,
+      "changePct": 3.04,
+      "high": 0.4616,
+      "low": 0.4028,
+      "quoteVol": 46669671.61096
+    },
+    {
+      "symbol": "LINKUSDT",
+      "last": 10.64,
+      "changePct": -1.573,
+      "high": 10.87,
+      "low": 10.4,
+      "quoteVol": 41475973.7974
+    },
+    {
+      "symbol": "OSMOUSDT",
+      "last": 0.0789,
+      "changePct": 63.354,
+      "high": 0.1286,
+      "low": 0.047,
+      "quoteVol": 39397784.764412
+    },
+    {
+      "symbol": "ADAUSDT",
+      "last": 0.2815,
+      "changePct": -1.985,
+      "high": 0.2887,
+      "low": 0.274,
+      "quoteVol": 37085995.05027
+    },
+    {
+      "symbol": "PAXGUSDT",
+      "last": 4717.8,
+      "changePct": -0.051,
+      "high": 4740.19,
+      "low": 4645.29,
+      "quoteVol": 34845683.542194
+    },
+    {
+      "symbol": "SEIUSDT",
+      "last": 0.07554,
+      "changePct": 1.792,
+      "high": 0.08006,
+      "low": 0.07278,
+      "quoteVol": 33947597.732998
+    },
+    {
+      "symbol": "APTUSDT",
+      "last": 1.135,
+      "changePct": -3.976,
+      "high": 1.239,
+      "low": 1.1,
+      "quoteVol": 32485563.68246
+    },
+    {
+      "symbol": "TRXUSDT",
+      "last": 0.351,
+      "changePct": -0.199,
+      "high": 0.3527,
+      "low": 0.3491,
+      "quoteVol": 31243612.13672
+    },
+    {
+      "symbol": "SAGAUSDT",
+      "last": 0.02614,
+      "changePct": 29.278,
+      "high": 0.02664,
+      "low": 0.01957,
+      "quoteVol": 30630676.127035
+    },
+    {
+      "symbol": "AAVEUSDT",
+      "last": 102.44,
+      "changePct": 2.666,
+      "high": 103.51,
+      "low": 97.35,
+      "quoteVol": 29115588.08759
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "last": 10.19,
+      "changePct": -2.019,
+      "high": 10.49,
+      "low": 9.95,
+      "quoteVol": 26505229.4883
+    },
+    {
+      "symbol": "NEARUSDT",
+      "last": 1.539,
+      "changePct": -3.813,
+      "high": 1.631,
+      "low": 1.51,
+      "quoteVol": 25280962.7671
+    },
+    {
+      "symbol": "EURUSDT",
+      "last": 1.1781,
+      "changePct": -0.051,
+      "high": 1.1793,
+      "low": 1.1749,
+      "quoteVol": 25128115.93341
+    },
+    {
+      "symbol": "UUSDT",
+      "last": 1.0002,
+      "changePct": 0.02,
+      "high": 1.0003,
+      "low": 0.9999,
+      "quoteVol": 25045765.9527
+    }
+  ],
+  "topGainers": [
+    {
+      "symbol": "BTCUSDT",
+      "last": 82127.55,
+      "changePct": 0.929,
+      "high": 82479.32,
+      "low": 80279.77,
+      "quoteVol": 1335506066.9169884
+    },
+    {
+      "symbol": "SOLUSDT",
+      "last": 97.54,
+      "changePct": 0.806,
+      "high": 98.1,
+      "low": 93.43,
+      "quoteVol": 326262395.88751
+    },
+    {
+      "symbol": "BNBUSDT",
+      "last": 663.17,
+      "changePct": 0.222,
+      "high": 666.66,
+      "low": 648.71,
+      "quoteVol": 116523821.58076
+    },
+    {
+      "symbol": "RLUSDUSDT",
+      "last": 1.0005,
+      "changePct": 0.03,
+      "high": 1.0005,
+      "low": 1,
+      "quoteVol": 64004688.8728
+    },
+    {
+      "symbol": "USDCUSDT",
+      "last": 1.00015,
+      "changePct": 0.015,
+      "high": 1.0003,
+      "low": 0.99994,
+      "quoteVol": 2124037586.55272
+    },
+    {
+      "symbol": "USD1USDT",
+      "last": 0.9992,
+      "changePct": -0.01,
+      "high": 0.9996,
+      "low": 0.999,
+      "quoteVol": 129677285.1339
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "last": 0.11131,
+      "changePct": -0.027,
+      "high": 0.11286,
+      "low": 0.10643,
+      "quoteVol": 157980195.1657
+    },
+    {
+      "symbol": "FDUSDUSDT",
+      "last": 0.9993,
+      "changePct": -0.05,
+      "high": 0.9998,
+      "low": 0.999,
+      "quoteVol": 78927830.8357
+    },
+    {
+      "symbol": "ETHUSDT",
+      "last": 2342.25,
+      "changePct": -0.846,
+      "high": 2382.53,
+      "low": 2304,
+      "quoteVol": 748857323.715606
+    },
+    {
+      "symbol": "XRPUSDT",
+      "last": 1.4776,
+      "changePct": -1.46,
+      "high": 1.5005,
+      "low": 1.4371,
+      "quoteVol": 230963272.14893
+    },
+    {
+      "symbol": "SUIUSDT",
+      "last": 1.3092,
+      "changePct": -2.604,
+      "high": 1.4223,
+      "low": 1.2461,
+      "quoteVol": 277698549.82508
+    },
+    {
+      "symbol": "CHIPUSDT",
+      "last": 0.06184,
+      "changePct": -2.981,
+      "high": 0.06569,
+      "low": 0.05967,
+      "quoteVol": 211559126.64909
+    },
+    {
+      "symbol": "PEPEUSDT",
+      "last": 0.00000437,
+      "changePct": -3.319,
+      "high": 0.00000455,
+      "low": 0.00000426,
+      "quoteVol": 60674213.56626829
+    },
+    {
+      "symbol": "TONUSDT",
+      "last": 2.334,
+      "changePct": -3.673,
+      "high": 2.495,
+      "low": 2.264,
+      "quoteVol": 72330565.63982
+    },
+    {
+      "symbol": "ZECUSDT",
+      "last": 565.94,
+      "changePct": -4.256,
+      "high": 599.22,
+      "low": 548.67,
+      "quoteVol": 115848609.4714
+    }
+  ],
+  "topLosers": [
+    {
+      "symbol": "ZECUSDT",
+      "last": 565.94,
+      "changePct": -4.256,
+      "high": 599.22,
+      "low": 548.67,
+      "quoteVol": 115848609.4714
+    },
+    {
+      "symbol": "TONUSDT",
+      "last": 2.334,
+      "changePct": -3.673,
+      "high": 2.495,
+      "low": 2.264,
+      "quoteVol": 72330565.63982
+    },
+    {
+      "symbol": "PEPEUSDT",
+      "last": 0.00000437,
+      "changePct": -3.319,
+      "high": 0.00000455,
+      "low": 0.00000426,
+      "quoteVol": 60674213.56626829
+    },
+    {
+      "symbol": "CHIPUSDT",
+      "last": 0.06184,
+      "changePct": -2.981,
+      "high": 0.06569,
+      "low": 0.05967,
+      "quoteVol": 211559126.64909
+    },
+    {
+      "symbol": "SUIUSDT",
+      "last": 1.3092,
+      "changePct": -2.604,
+      "high": 1.4223,
+      "low": 1.2461,
+      "quoteVol": 277698549.82508
+    },
+    {
+      "symbol": "XRPUSDT",
+      "last": 1.4776,
+      "changePct": -1.46,
+      "high": 1.5005,
+      "low": 1.4371,
+      "quoteVol": 230963272.14893
+    },
+    {
+      "symbol": "ETHUSDT",
+      "last": 2342.25,
+      "changePct": -0.846,
+      "high": 2382.53,
+      "low": 2304,
+      "quoteVol": 748857323.715606
+    },
+    {
+      "symbol": "FDUSDUSDT",
+      "last": 0.9993,
+      "changePct": -0.05,
+      "high": 0.9998,
+      "low": 0.999,
+      "quoteVol": 78927830.8357
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "last": 0.11131,
+      "changePct": -0.027,
+      "high": 0.11286,
+      "low": 0.10643,
+      "quoteVol": 157980195.1657
+    },
+    {
+      "symbol": "USD1USDT",
+      "last": 0.9992,
+      "changePct": -0.01,
+      "high": 0.9996,
+      "low": 0.999,
+      "quoteVol": 129677285.1339
+    },
+    {
+      "symbol": "USDCUSDT",
+      "last": 1.00015,
+      "changePct": 0.015,
+      "high": 1.0003,
+      "low": 0.99994,
+      "quoteVol": 2124037586.55272
+    },
+    {
+      "symbol": "RLUSDUSDT",
+      "last": 1.0005,
+      "changePct": 0.03,
+      "high": 1.0005,
+      "low": 1,
+      "quoteVol": 64004688.8728
+    },
+    {
+      "symbol": "BNBUSDT",
+      "last": 663.17,
+      "changePct": 0.222,
+      "high": 666.66,
+      "low": 648.71,
+      "quoteVol": 116523821.58076
+    },
+    {
+      "symbol": "SOLUSDT",
+      "last": 97.54,
+      "changePct": 0.806,
+      "high": 98.1,
+      "low": 93.43,
+      "quoteVol": 326262395.88751
+    },
+    {
+      "symbol": "BTCUSDT",
+      "last": 82127.55,
+      "changePct": 0.929,
+      "high": 82479.32,
+      "low": 80279.77,
+      "quoteVol": 1335506066.9169884
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "poll_interval_seconds": 300,
+  "max_summary_chars": 700,
+  "watch": [
+    {
+      "name": "DogDoing home",
+      "url": "https://dogdoing.ai/",
+      "kind": "dogdoing_home"
+    },
+    {
+      "name": "DogDoing alpha",
+      "url": "https://dogdoing.ai/alpha",
+      "kind": "html"
+    },
+    {
+      "name": "DogDoing market",
+      "url": "https://dogdoing.ai/market",
+      "kind": "html"
+    },
+    {
+      "name": "DogDoing sentiment",
+      "url": "https://dogdoing.ai/sentiment",
+      "kind": "html"
+    },
+    {
+      "name": "BTC Square search",
+      "url": "https://www.binance.com/en/square/search?keyword=BTC",
+      "kind": "square_search",
+      "keywords": [
+        "BTC",
+        "Bitcoin",
+        "ETF",
+        "减半",
+        "宏观"
+      ]
+    },
+    {
+      "name": "ETH Square search",
+      "url": "https://www.binance.com/en/square/search?keyword=ETH",
+      "kind": "square_search",
+      "keywords": [
+        "ETH",
+        "Ethereum",
+        "ETF",
+        "质押",
+        "L2",
+        "升级"
+      ]
+    },
+    {
+      "name": "BNB Square search",
+      "url": "https://www.binance.com/en/square/search?keyword=BNB",
+      "kind": "square_search",
+      "keywords": [
+        "BNB",
+        "Binance",
+        "Launchpool",
+        "生态",
+        "手续费"
+      ]
+    }
+  ],
+  "posting": {
+    "style": "短句、直给、带关键价位和动作。",
+    "disclaimer": "非投资建议，别上杠杆硬追。"
+  },
+  "auto_post": {
+    "enabled": false,
+    "min_discussing": 1000,
+    "skip_tags": [
+      "airdrop",
+      "giveaway",
+      "referral"
+    ],
+    "disclaimer": "仅做市场观察，不构成投资建议。"
+  },
+  "hot_urls": [
+    "https://www.binance.com/en/square/hashtag/Hot",
+    "https://www.binance.com/en-AE/square/hashtag/%D8%A7%D9%84%D9%81%D8%A6%D8%A9%20%7C%20Hot"
+  ]
+}

@@ -1,0 +1,368 @@
+{
+  "at": "2026-05-17T04:43:36.182Z",
+  "created": [
+    {
+      "id": "20260517044336_FILUSDT",
+      "symbol": "FILUSDT",
+      "source": "binance_24h_ranked"
+    },
+    {
+      "id": "20260517044336_QNTUSDT",
+      "symbol": "QNTUSDT",
+      "source": "binance_24h_ranked"
+    },
+    {
+      "id": "20260517044336_KITEUSDT",
+      "symbol": "KITEUSDT",
+      "source": "binance_24h_ranked"
+    },
+    {
+      "id": "20260517044336_DOTUSDT",
+      "symbol": "DOTUSDT",
+      "source": "binance_24h_ranked"
+    },
+    {
+      "id": "20260517044336_SAHARAUSDT",
+      "symbol": "SAHARAUSDT",
+      "source": "binance_24h_ranked"
+    },
+    {
+      "id": "20260517044336_APTUSDT",
+      "symbol": "APTUSDT",
+      "source": "binance_24h_ranked"
+    },
+    {
+      "id": "20260517044336_RENDERUSDT",
+      "symbol": "RENDERUSDT",
+      "source": "binance_24h_ranked"
+    },
+    {
+      "id": "20260517044336_VIRTUALUSDT",
+      "symbol": "VIRTUALUSDT",
+      "source": "binance_24h_ranked"
+    }
+  ],
+  "keyPresent": true,
+  "pythonPresent": false,
+  "avoidDays": 7,
+  "avoidCount": 52,
+  "avoidSample": [
+    "BTC",
+    "ETH",
+    "SOL",
+    "BNB",
+    "TRX",
+    "DOGE",
+    "SUI",
+    "PEPE",
+    "WLD",
+    "LAYER",
+    "ETH-",
+    "SOL-",
+    "NEAR",
+    "SHIB",
+    "LINK",
+    "AAVE",
+    "PENGU",
+    "UNI",
+    "FET",
+    "SPK",
+    "OSMO",
+    "LUNC",
+    "CHZ",
+    "ZEC",
+    "TAO",
+    "ADA",
+    "BCH",
+    "NMR",
+    "ATOM",
+    "币安人生"
+  ],
+  "targetCount": 8,
+  "pickedCount": 8,
+  "pickSymbols": [
+    "FILUSDT",
+    "QNTUSDT",
+    "KITEUSDT",
+    "DOTUSDT",
+    "SAHARAUSDT",
+    "APTUSDT",
+    "RENDERUSDT",
+    "VIRTUALUSDT"
+  ],
+  "previewOut": "E:\\Antigravity\\square_posts_preview_2026-05-17T04-43-32-634Z.jsonl",
+  "snapshotOut": "E:\\Antigravity\\_binance24h_snapshot_2026-05-17T04-43-32-634Z.json",
+  "topCandidates": [
+    {
+      "symbol": "XLMUSDT",
+      "last": 0.1519,
+      "changePct": -1.042,
+      "high": 0.1539,
+      "low": 0.1502,
+      "quoteVol": 6662852.284,
+      "url": "https://api.binance.com/api/v3/ticker/24hr?symbol=XLMUSDT"
+    },
+    {
+      "symbol": "FILUSDT",
+      "last": 0.976,
+      "changePct": -2.692,
+      "high": 1.008,
+      "low": 0.948,
+      "quoteVol": 6338498.16072,
+      "url": "https://api.binance.com/api/v3/ticker/24hr?symbol=FILUSDT"
+    },
+    {
+      "symbol": "QNTUSDT",
+      "last": 79.08,
+      "changePct": -2.934,
+      "high": 85,
+      "low": 78.02,
+      "quoteVol": 5680281.7509,
+      "url": "https://api.binance.com/api/v3/ticker/24hr?symbol=QNTUSDT"
+    },
+    {
+      "symbol": "KITEUSDT",
+      "last": 0.214,
+      "changePct": 2.197,
+      "high": 0.2199,
+      "low": 0.2038,
+      "quoteVol": 5498351.59622,
+      "url": "https://api.binance.com/api/v3/ticker/24hr?symbol=KITEUSDT"
+    },
+    {
+      "symbol": "DOTUSDT",
+      "last": 1.275,
+      "changePct": -1.923,
+      "high": 1.302,
+      "low": 1.247,
+      "quoteVol": 5212931.4725,
+      "url": "https://api.binance.com/api/v3/ticker/24hr?symbol=DOTUSDT"
+    },
+    {
+      "symbol": "SAHARAUSDT",
+      "last": 0.03666,
+      "changePct": 2.833,
+      "high": 0.03794,
+      "low": 0.03369,
+      "quoteVol": 4738119.68333,
+      "url": "https://api.binance.com/api/v3/ticker/24hr?symbol=SAHARAUSDT"
+    },
+    {
+      "symbol": "APTUSDT",
+      "last": 0.948,
+      "changePct": -3.364,
+      "high": 0.983,
+      "low": 0.934,
+      "quoteVol": 4737289.03211,
+      "url": "https://api.binance.com/api/v3/ticker/24hr?symbol=APTUSDT"
+    },
+    {
+      "symbol": "DODOUSDT",
+      "last": 0.01862,
+      "changePct": -1.115,
+      "high": 0.02147,
+      "low": 0.01805,
+      "quoteVol": 4676023.1196,
+      "url": "https://api.binance.com/api/v3/ticker/24hr?symbol=DODOUSDT"
+    },
+    {
+      "symbol": "RENDERUSDT",
+      "last": 1.834,
+      "changePct": -1.82,
+      "high": 1.875,
+      "low": 1.777,
+      "quoteVol": 4550540.15013,
+      "url": "https://api.binance.com/api/v3/ticker/24hr?symbol=RENDERUSDT"
+    },
+    {
+      "symbol": "VIRTUALUSDT",
+      "last": 0.7234,
+      "changePct": -1.938,
+      "high": 0.7393,
+      "low": 0.708,
+      "quoteVol": 4163865.83354,
+      "url": "https://api.binance.com/api/v3/ticker/24hr?symbol=VIRTUALUSDT"
+    },
+    {
+      "symbol": "TIAUSDT",
+      "last": 0.3973,
+      "changePct": -5.741,
+      "high": 0.4233,
+      "low": 0.391,
+      "quoteVol": 4049987.475314,
+      "url": "https://api.binance.com/api/v3/ticker/24hr?symbol=TIAUSDT"
+    },
+    {
+      "symbol": "PUMPUSDT",
+      "last": 0.00175,
+      "changePct": -1.519,
+      "high": 0.001784,
+      "low": 0.001707,
+      "quoteVol": 3699685.009481,
+      "url": "https://api.binance.com/api/v3/ticker/24hr?symbol=PUMPUSDT"
+    },
+    {
+      "symbol": "ORDIUSDT",
+      "last": 4.291,
+      "changePct": 1.107,
+      "high": 4.366,
+      "low": 4.086,
+      "quoteVol": 3685433.39514,
+      "url": "https://api.binance.com/api/v3/ticker/24hr?symbol=ORDIUSDT"
+    },
+    {
+      "symbol": "ETHFIUSDT",
+      "last": 0.388,
+      "changePct": -5.596,
+      "high": 0.412,
+      "low": 0.382,
+      "quoteVol": 3630478.857,
+      "url": "https://api.binance.com/api/v3/ticker/24hr?symbol=ETHFIUSDT"
+    },
+    {
+      "symbol": "XPLUSDT",
+      "last": 0.0867,
+      "changePct": -2.365,
+      "high": 0.089,
+      "low": 0.084,
+      "quoteVol": 3511848.31801,
+      "url": "https://api.binance.com/api/v3/ticker/24hr?symbol=XPLUSDT"
+    },
+    {
+      "symbol": "KAIAUSDT",
+      "last": 0.0496,
+      "changePct": 7.592,
+      "high": 0.05,
+      "low": 0.0451,
+      "quoteVol": 3336501.46888,
+      "url": "https://api.binance.com/api/v3/ticker/24hr?symbol=KAIAUSDT"
+    },
+    {
+      "symbol": "PSGUSDT",
+      "last": 1.091,
+      "changePct": 3.707,
+      "high": 1.15,
+      "low": 1.052,
+      "quoteVol": 3274306.23004,
+      "url": "https://api.binance.com/api/v3/ticker/24hr?symbol=PSGUSDT"
+    },
+    {
+      "symbol": "ARBUSDT",
+      "last": 0.1199,
+      "changePct": -3.072,
+      "high": 0.1239,
+      "low": 0.1179,
+      "quoteVol": 3228413.46765,
+      "url": "https://api.binance.com/api/v3/ticker/24hr?symbol=ARBUSDT"
+    },
+    {
+      "symbol": "HOLOUSDT",
+      "last": 0.0753,
+      "changePct": 3.292,
+      "high": 0.0756,
+      "low": 0.071,
+      "quoteVol": 3226071.73866,
+      "url": "https://api.binance.com/api/v3/ticker/24hr?symbol=HOLOUSDT"
+    },
+    {
+      "symbol": "WBTCUSDT",
+      "last": 77900.71,
+      "changePct": -1.101,
+      "high": 78823.89,
+      "low": 77449.54,
+      "quoteVol": 3115409.2058408,
+      "url": "https://api.binance.com/api/v3/ticker/24hr?symbol=WBTCUSDT"
+    },
+    {
+      "symbol": "GPSUSDT",
+      "last": 0.00788,
+      "changePct": -7.62,
+      "high": 0.00856,
+      "low": 0.00712,
+      "quoteVol": 3080262.346631,
+      "url": "https://api.binance.com/api/v3/ticker/24hr?symbol=GPSUSDT"
+    },
+    {
+      "symbol": "MEGAUSDT",
+      "last": 0.0942,
+      "changePct": -2.11,
+      "high": 0.0965,
+      "low": 0.09023,
+      "quoteVol": 3007954.539447,
+      "url": "https://api.binance.com/api/v3/ticker/24hr?symbol=MEGAUSDT"
+    },
+    {
+      "symbol": "BONKUSDT",
+      "last": 0.00000625,
+      "changePct": -3.4,
+      "high": 0.00000649,
+      "low": 0.00000616,
+      "quoteVol": 2991172.00841859,
+      "url": "https://api.binance.com/api/v3/ticker/24hr?symbol=BONKUSDT"
+    },
+    {
+      "symbol": "VICUSDT",
+      "last": 0.0629,
+      "changePct": 5.184,
+      "high": 0.0649,
+      "low": 0.0557,
+      "quoteVol": 2967798.669009,
+      "url": "https://api.binance.com/api/v3/ticker/24hr?symbol=VICUSDT"
+    },
+    {
+      "symbol": "LUNAUSDT",
+      "last": 0.0689,
+      "changePct": 5.191,
+      "high": 0.0712,
+      "low": 0.0628,
+      "quoteVol": 2908059.80769,
+      "url": "https://api.binance.com/api/v3/ticker/24hr?symbol=LUNAUSDT"
+    },
+    {
+      "symbol": "LRCUSDT",
+      "last": 0.01879,
+      "changePct": -6.238,
+      "high": 0.022,
+      "low": 0.0183,
+      "quoteVol": 2891184.21049,
+      "url": "https://api.binance.com/api/v3/ticker/24hr?symbol=LRCUSDT"
+    },
+    {
+      "symbol": "POLUSDT",
+      "last": 0.0919,
+      "changePct": 1.1,
+      "high": 0.0921,
+      "low": 0.0882,
+      "quoteVol": 2799153.62973,
+      "url": "https://api.binance.com/api/v3/ticker/24hr?symbol=POLUSDT"
+    },
+    {
+      "symbol": "OPENUSDT",
+      "last": 0.1621,
+      "changePct": -9.086,
+      "high": 0.1808,
+      "low": 0.1569,
+      "quoteVol": 2687855.22,
+      "url": "https://api.binance.com/api/v3/ticker/24hr?symbol=OPENUSDT"
+    },
+    {
+      "symbol": "FLOKIUSDT",
+      "last": 0.00003189,
+      "changePct": -2.388,
+      "high": 0.00003275,
+      "low": 0.00003111,
+      "quoteVol": 2669875.3926409,
+      "url": "https://api.binance.com/api/v3/ticker/24hr?symbol=FLOKIUSDT"
+    },
+    {
+      "symbol": "CVCUSDT",
+      "last": 0.03167,
+      "changePct": 1.474,
+      "high": 0.03406,
+      "low": 0.03066,
+      "quoteVol": 2606169.5518,
+      "url": "https://api.binance.com/api/v3/ticker/24hr?symbol=CVCUSDT"
+    }
+  ],
+  "url": "https://api.binance.com/api/v3/ticker/24hr"
+}

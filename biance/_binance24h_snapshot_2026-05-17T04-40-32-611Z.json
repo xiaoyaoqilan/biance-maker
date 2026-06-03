@@ -1,0 +1,92 @@
+{
+  "at": "2026-05-17T04:40:34.460Z",
+  "created": [
+    {
+      "id": "20260517044034_SPKUSDT",
+      "symbol": "SPKUSDT",
+      "source": "binance_24h_ranked"
+    }
+  ],
+  "keyPresent": true,
+  "pythonPresent": false,
+  "avoidDays": 7,
+  "avoidCount": 12,
+  "avoidSample": [
+    "BTC",
+    "ETH",
+    "JUP",
+    "SOL",
+    "ONDO",
+    "BNB",
+    "TRX",
+    "DOGE",
+    "SUI",
+    "PEPE",
+    "WLD",
+    "UTK"
+  ],
+  "targetCount": 5,
+  "pickedCount": 1,
+  "pickSymbols": [
+    "SPKUSDT"
+  ],
+  "previewOut": "E:\\Antigravity\\square_posts_preview_2026-05-17T04-40-32-611Z.jsonl",
+  "snapshotOut": "E:\\Antigravity\\_binance24h_snapshot_2026-05-17T04-40-32-611Z.json",
+  "topByScore": [
+    {
+      "symbol": "SPKUSDT",
+      "last": 0.03056,
+      "changePct": -8.316,
+      "high": 0.033334,
+      "low": 0.030338,
+      "quoteVol": 55079693.563254,
+      "url": "https://api.binance.com/api/v3/ticker/24hr?symbol=SPKUSDT"
+    },
+    {
+      "symbol": "ZECUSDT",
+      "last": 511.69,
+      "changePct": 1.857,
+      "high": 517.59,
+      "low": 486.61,
+      "quoteVol": 70261932.6243,
+      "url": "https://api.binance.com/api/v3/ticker/24hr?symbol=ZECUSDT"
+    },
+    {
+      "symbol": "USDCUSDT",
+      "last": 1.00023,
+      "changePct": -0.007,
+      "high": 1.00031,
+      "low": 1.00021,
+      "quoteVol": 576674742.31885,
+      "url": "https://api.binance.com/api/v3/ticker/24hr?symbol=USDCUSDT"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "last": 1.4161,
+      "changePct": -0.611,
+      "high": 1.4298,
+      "low": 1.394,
+      "quoteVol": 103377340.78381,
+      "url": "https://api.binance.com/api/v3/ticker/24hr?symbol=XRPUSDT"
+    },
+    {
+      "symbol": "USD1USDT",
+      "last": 1.0004,
+      "changePct": -0.01,
+      "high": 1.0006,
+      "low": 1.0002,
+      "quoteVol": 71797554.5321,
+      "url": "https://api.binance.com/api/v3/ticker/24hr?symbol=USD1USDT"
+    },
+    {
+      "symbol": "FDUSDUSDT",
+      "last": 0.9983,
+      "changePct": 0,
+      "high": 0.9989,
+      "low": 0.9979,
+      "quoteVol": 58445362.966,
+      "url": "https://api.binance.com/api/v3/ticker/24hr?symbol=FDUSDUSDT"
+    }
+  ],
+  "url": "https://api.binance.com/api/v3/ticker/24hr"
+}

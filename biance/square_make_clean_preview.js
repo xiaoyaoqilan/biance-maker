@@ -1,0 +1,120 @@
+/**
+ * Build clean Chinese previews + append as drafts.
+ *
+ * Why: PowerShell quoting/encoding can corrupt `$` and Chinese text.
+ * This script writes UTF-8 (no BOM) JSONL previews and appends matching items
+ * into ./square_drafts.jsonl for later posting.
+ *
+ * Usage:
+ *   node .\square_make_clean_preview.js
+ */
+
+const fs = require("fs");
+const path = require("path");
+
+const APP_DIR = __dirname;
+const PREVIEW_PATH = path.join(APP_DIR, "square_posts_preview_2026-05-11_1602.jsonl");
+const DRAFTS_PATH = path.join(APP_DIR, "square_drafts.jsonl");
+
+function utcNowIso() {
+  return new Date().toISOString();
+}
+
+function writeUtf8NoBom(filePath, text) {
+  fs.writeFileSync(filePath, Buffer.from(text, "utf8"));
+}
+
+function appendUtf8NoBom(filePath, text) {
+  fs.appendFileSync(filePath, Buffer.from(text, "utf8"));
+}
+
+function makeItems() {
+  return [
+    {
+      id: "202605111602_BTCUSDT",
+      symbol: "BTCUSDT",
+      post_text:
+        "$BTC 现价 80770（24h +0.05%）高 82479 低 80280\n" +
+        "上破路径：82479 -> 82500\n" +
+        "跌破路径：80280 -> 80000\n" +
+        "动作：不追。上破 82479 才考虑跟；跌破 80280 先撤，等回踩再说。\n" +
+        "想看我盯的关键价位，点个关注。",
+      data: {
+        last: 80770.24,
+        changePct: 0.049,
+        high: 82479.32,
+        low: 80279.77,
+        up: "82479.32->82500",
+        down: "80279.77->80000",
+      },
+      sources: { ticker24h: "https://api.binance.com/api/v3/ticker/24hr?symbol=BTCUSDT" },
+    },
+    {
+      id: "202605111602_SOLUSDT",
+      symbol: "SOLUSDT",
+      post_text:
+        "$SOL 现价 95.30（24h +1.99%）高 97.00 低 92.91\n" +
+        "上破路径：97.00 -> 97.50\n" +
+        "跌破路径：92.91 -> 92.50\n" +
+        "动作：别追。回踩 93 附近不破再看多；上破 97 再加，跌破 92.91 直接走。\n" +
+        "你更看多 $SOL 还是 $ETH？",
+      data: {
+        last: 95.3,
+        changePct: 1.991,
+        high: 97.0,
+        low: 92.91,
+        up: "97.00->97.50",
+        down: "92.91->92.50",
+      },
+      sources: { ticker24h: "https://api.binance.com/api/v3/ticker/24hr?symbol=SOLUSDT" },
+    },
+    {
+      id: "202605111602_SUIUSDT",
+      symbol: "SUIUSDT",
+      post_text:
+        "$SUI 现价 1.285（24h +17.55%）高 1.422 低 1.093\n" +
+        "上破路径：1.422 -> 1.450\n" +
+        "跌破路径：1.093 -> 1.050\n" +
+        "动作：涨这么多不追高。回踩 1.20-1.18 不破再接；强势就等上破 1.422 再跟，跌回 1.093 先认怂。\n" +
+        "想看我下轮选谁，留个赞。",
+      data: {
+        last: 1.285,
+        changePct: 17.545,
+        high: 1.4223,
+        low: 1.0932,
+        up: "1.4223->1.45",
+        down: "1.0932->1.05",
+      },
+      sources: { ticker24h: "https://api.binance.com/api/v3/ticker/24hr?symbol=SUIUSDT" },
+    },
+  ];
+}
+
+function appendAsDrafts(items) {
+  const createdAt = utcNowIso();
+  for (const it of items) {
+    const draft = {
+      id: `${it.id}_draft`,
+      created_at: createdAt,
+      source: "manual_clean",
+      url: it.sources.ticker24h,
+      keywords: [it.symbol],
+      body: it.post_text,
+      posted: false,
+      realtime: { ticker: it.data },
+    };
+    appendUtf8NoBom(DRAFTS_PATH, JSON.stringify(draft) + "\n");
+  }
+}
+
+function main() {
+  const items = makeItems();
+  writeUtf8NoBom(PREVIEW_PATH, items.map((x) => JSON.stringify(x)).join("\n") + "\n");
+  appendAsDrafts(items);
+  process.stdout.write(
+    JSON.stringify({ preview: PREVIEW_PATH, appendedDrafts: items.length, at: utcNowIso() }, null, 2) + "\n",
+  );
+}
+
+main();
+

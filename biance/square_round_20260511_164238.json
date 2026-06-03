@@ -1,0 +1,17 @@
+﻿{
+    "at_utc":  "2026-05-11T16:42:38.649Z",
+    "drafted":  6,
+    "posted":  0,
+    "random_target_posts":  6,
+    "snapshot":  "E:\\Antigravity\\_binance24h_snapshot_2026-05-11T16-32-40-861Z.json",
+    "preview":  "E:\\Antigravity\\square_posts_preview_2026-05-11T16-39-23-986Z.jsonl",
+    "key_present":  false,
+    "blockers":  [
+                     "BINANCE_SQUARE_OPENAPI_KEY missing"
+                 ],
+    "notes":  [
+                  "PowerShell HTTPS to Binance failed (connection closed). Node fetch works; snapshot saved.",
+                  "Publishing requires BINANCE_SQUARE_OPENAPI_KEY and user confirmation (workspace rule).",
+                  "Python not on PATH; added node poster square_growth_node_post.js for future runs."
+              ]
+}
