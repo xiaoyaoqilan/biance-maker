@@ -2,7 +2,7 @@ name: Binance Square Auto
 
 on:
   schedule:
-    - cron: "*/24 * * * *"
+    - cron: "*/5 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -15,12 +15,12 @@ concurrency:
 jobs:
   post-once:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
 
-      - name: Publish one draft
-        shell: pwsh
+      - name: Publish random batch
+        shell: bash
         env:
           BINANCE_SQUARE_OPENAPI_KEY: ${{ secrets.BINANCE_SQUARE_OPENAPI_KEY }}
         run: pwsh -NoProfile -File ./biance/scripts/github_square_once.ps1
