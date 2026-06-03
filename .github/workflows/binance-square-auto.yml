@@ -23,7 +23,7 @@ jobs:
         shell: pwsh
         env:
           BINANCE_SQUARE_OPENAPI_KEY: ${{ secrets.BINANCE_SQUARE_OPENAPI_KEY }}
-        run: ./biance/scripts/github_square_once.ps1
+        run: pwsh -NoProfile -File ./biance/scripts/github_square_once.ps1
 
       - name: Commit state and logs
         shell: bash
