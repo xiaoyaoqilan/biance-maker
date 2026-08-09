@@ -12,6 +12,10 @@ class MarketSnapshot:
     symbol:str; mid:float; bid:float; ask:float; depth_bid_notional:float; depth_ask_notional:float; volume_24h:float; volatility:float; funding_rate:float=0.0; status:str='TRADING'
     @property
     def spread_bps(self): return max(0.0,(self.ask-self.bid)/self.mid*10000) if self.mid else float('inf')
+    @property
+    def depth_imbalance(self):
+        total=self.depth_bid_notional+self.depth_ask_notional
+        return (self.depth_bid_notional-self.depth_ask_notional)/total if total else 0.0
 @dataclass(frozen=True)
 class Quote:
     symbol:str; mode:str; bid:Optional[float]; ask:Optional[float]; width_bps:float; inventory_skew_bps:float; reason:str
@@ -41,10 +45,12 @@ def classify_regime(candles, shock_atr_pct=.06):
     if fast>slow and slope>t and closes[-1]>=hi*.995:return Regime.TREND_UP
     if fast<slow and slope<-t and closes[-1]<=lo*1.005:return Regime.TREND_DOWN
     return Regime.RANGE
-def build_quotes(s, regime, inventory_notional, base_width_bps=8.0, tick_size=.01):
+def build_quotes(s, regime, inventory_notional, base_width_bps=6.0, tick_size=.01, volatility_multiplier=.18, max_width_bps=30.0, inventory_limit=1000.0):
     if regime in (Regime.UNKNOWN,Regime.SHOCK):return Quote(s.symbol,'pause',None,None,0,0,'insufficient_or_shock_market')
-    width=max(base_width_bps,s.spread_bps+s.volatility*10000*.35); skew=max(-width*1.5,min(width*1.5,inventory_notional/1000*width))
-    bid=round(s.mid*(1-(width+skew)/20000)/tick_size)*tick_size; ask=round(s.mid*(1+(width-skew)/20000)/tick_size)*tick_size
+    raw_width=max(base_width_bps,s.spread_bps+s.volatility*10000*volatility_multiplier); width=min(max_width_bps,raw_width)
+    inventory_ratio=max(-1.0,min(1.0,inventory_notional/max(1.0,inventory_limit))); skew=inventory_ratio*width*1.2
+    micro_bias=s.depth_imbalance*s.spread_bps*.25; center=s.mid*(1+micro_bias/10000)
+    bid=round(center*(1-(width+skew)/20000)/tick_size)*tick_size; ask=round(center*(1+(width-skew)/20000)/tick_size)*tick_size
     if regime==Regime.TREND_UP:return Quote(s.symbol,'one_sided_buy',bid,None,round(width,2),round(skew,2),'trend_up_only_bid')
     if regime==Regime.TREND_DOWN:return Quote(s.symbol,'one_sided_sell',None,ask,round(width,2),round(skew,2),'trend_down_only_ask')
     return Quote(s.symbol,'two_sided',bid,ask,round(width,2),round(skew,2),'range_inventory_skew')
