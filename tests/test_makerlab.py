@@ -1,6 +1,7 @@
 ﻿import unittest
 from makerlab.core import MarketSnapshot, Regime, RiskLimits, build_quotes, assess_risk, score_symbol
 from makerlab.batch import MakerConfig, plan_batch
+from makerlab.stability import QuoteState, should_refresh
 from makerlab.economics import estimate_rebate
 from makerlab.live import ExchangeAdapter, LiveTradingBlocked
 
@@ -26,8 +27,13 @@ class TestMakerLab(unittest.TestCase):
   self.assertTrue(p.plans[0].orders[1].reduce_only)
   self.assertEqual(p.plans[0].orders[1].position_side,'LONG')
  def test_rebate_requires_edge(self): self.assertTrue(estimate_rebate(100000,.5,.2).viable); self.assertFalse(estimate_rebate(100000,.5,.8).viable)
+ def test_refresh_is_throttled_by_price_age_or_regime(self):
+  self.assertFalse(should_refresh(QuoteState(100,'range',1000),100.01,'range',1001))
+  self.assertTrue(should_refresh(QuoteState(100,'range',1000),100.01,'trend_up',1001))
+  self.assertTrue(should_refresh(QuoteState(100,'range',1000),100.01,'range',1031))
  def test_live_is_blocked(self):
   with self.assertRaises(LiveTradingBlocked): ExchangeAdapter().submit(None)
 if __name__=='__main__': unittest.main()
+
 
 
