@@ -1,4 +1,4 @@
-﻿# BTC/ETH Maker Rebate Assistant
+# BTC/ETH Maker Rebate Assistant
 
 面向做市商的 BTC/ETH 双品种批量 Maker 做市辅助工具。
 
