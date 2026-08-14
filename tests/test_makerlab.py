@@ -1,17 +1,25 @@
-﻿import unittest
-from makerlab.core import MarketSnapshot, Regime, RiskLimits, build_quotes, assess_risk, score_symbol
+import unittest
+from makerlab.core import MarketSnapshot, Regime, RiskLimits, build_quotes, assess_risk, score_symbol, validate_snapshot
 from makerlab.batch import MakerConfig, plan_batch
 from makerlab.stability import QuoteState, should_refresh
 from makerlab.economics import estimate_rebate
 from makerlab.live import ExchangeAdapter, LiveTradingBlocked
 
+
 class TestMakerLab(unittest.TestCase):
  def snap(self,vol=.01): return MarketSnapshot('X',100,99.9,100.1,100000,100000,20000000,vol)
  def test_unknown(self): self.assertEqual(__import__('makerlab.core',fromlist=['classify_regime']).classify_regime([]),Regime.UNKNOWN)
+ def test_invalid_snapshot_is_blocked(self):
+  invalid=MarketSnapshot('X',100,101,99,100000,100000,20000000,.01)
+  self.assertIn('crossed_book',validate_snapshot(invalid)); self.assertFalse(score_symbol(invalid)['eligible'])
+  self.assertEqual(build_quotes(invalid,Regime.RANGE,0).mode,'pause')
  def test_shock_pauses(self): self.assertEqual(build_quotes(self.snap(.1),Regime.SHOCK,0).mode,'pause')
  def test_trend_one_sided(self):
   self.assertEqual(build_quotes(self.snap(),Regime.TREND_UP,0).mode,'one_sided_buy'); self.assertEqual(build_quotes(self.snap(),Regime.TREND_DOWN,0).mode,'one_sided_sell')
  def test_risk(self): self.assertFalse(assess_risk(self.snap(),Regime.RANGE,1001,0).allowed)
+ def test_daily_loss_is_passed_to_batch_risk(self):
+  p=plan_batch([self.snap()],{'X':Regime.RANGE},config=MakerConfig(symbols=('X',)),daily_pnl=-100)
+  self.assertFalse(p.plans[0].eligible); self.assertIn('daily_loss_limit',p.plans[0].blockers)
  def test_universe(self): self.assertFalse(score_symbol(MarketSnapshot('X',100,99,101,100000,100000,20000000,.01))['eligible'])
  def test_content_has_no_target_claim(self):
   from makerlab.core import make_market_note
@@ -26,6 +34,11 @@ class TestMakerLab(unittest.TestCase):
   self.assertEqual(p.plans[0].orders[0].position_side,'LONG')
   self.assertTrue(p.plans[0].orders[1].reduce_only)
   self.assertEqual(p.plans[0].orders[1].position_side,'LONG')
+ def test_global_block_reports_executable_zero_and_requested_totals(self):
+  p=plan_batch([MarketSnapshot('BTCUSDT',60000,59999,60001,1000000,1000000,2e9,.01)],{'BTCUSDT':Regime.RANGE},config=MakerConfig(order_notional=100,max_orders_per_side=2,max_gross_notional=10))
+  self.assertTrue(p.blocked); self.assertEqual(p.total_orders,0); self.assertGreater(p.requested_orders,0); self.assertIn('gross_notional_limit',p.blockers)
+ def test_config_rejects_invalid_limits(self):
+  with self.assertRaises(ValueError): MakerConfig(order_notional=0)
  def test_rebate_requires_edge(self): self.assertTrue(estimate_rebate(100000,.5,.2).viable); self.assertFalse(estimate_rebate(100000,.5,.8).viable)
  def test_refresh_is_throttled_by_price_age_or_regime(self):
   self.assertFalse(should_refresh(QuoteState(100,'range',1000),100.01,'range',1001))
@@ -33,7 +46,6 @@ class TestMakerLab(unittest.TestCase):
   self.assertTrue(should_refresh(QuoteState(100,'range',1000),100.01,'range',1031))
  def test_live_is_blocked(self):
   with self.assertRaises(LiveTradingBlocked): ExchangeAdapter().submit(None)
+
+
 if __name__=='__main__': unittest.main()
-
-
-
